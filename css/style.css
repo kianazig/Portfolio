@@ -268,11 +268,10 @@ button:hover {
 .projects {
 	position: relative;
 	display: block;
-	margin-top: 1px;
 	background-color: #F0F0F0;
 }
 
-.projects h1{
+.section-title{
 	margin: 20px auto;
 	font-size: 5vh;
 }
@@ -301,6 +300,7 @@ button:hover {
 	padding: 10px 10px;
 	text-align: center;
 	font-size: 1.2em;
+	width: 75vw;
 }
 
 .image-container {
@@ -308,8 +308,6 @@ button:hover {
 	position: relative;
 	text-align: center;
 	width: 40%;
-
-
 }
 
 .image-container img{
@@ -341,6 +339,44 @@ img {
 	opacity: 0.2;
 }
 
-.project-description {
-	width: 75vw;
+
+.about-wrapper{
+	background-color: white;
+	padding: 2em;
+	text-align: left;
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+.about-content h2{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.about-text-wrapper{	
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.about-text{
+	width: 80%;
+	font-size: 1.2em;
+	margin: 0 auto;
+}
+
+.profile {
+	margin-left: 5%;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.profile img{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 50%;
 }
